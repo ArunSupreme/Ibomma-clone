@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color:#282828;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #2c2e30;
+     display:flex;
+    text-align: right;
+     align-items: center;
+     height:60px;
+     padding:0 100px;
+    
+}
+nav .logo{
+    cursor: pointer;
+}
+nav .nav-items{
+    display: flex;
+    flex:1;
+    padding:0 0 0 40px;
+    margin-left:330px;
+}
+nav .nav-items a{
+    color: #fff;
+    font-size:13px;
+    font-weight:500px;
+    text-decoration: none;
+    padding:5px;
+    margin-left:15px;
+}
+
+nav .nav-items a i{
+    color:green;
+    padding:2.5px;
+}
+
+nav form{
+    display: flex;
+    height:40px;
+    padding:2px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border:1px solid rgba(155, 155, 155, 0.2);
+
+}
+nav form .search-data{
+     width:100%;
+     height:100%;
+     padding:0 10px;
+     color:#fff;
+     font-size:17px;
+     border:none;
+     font-weight: 500;
+     background: none;
+}
+nav form button{
+    padding:10px;
+    background-color: #368338e1;
+    border:none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+nav form button:hover{
+    cursor: pointer;
+    background-color:#245a26e1 ;
+}
+
+.content{
+    color:#fff;
+    width:100%;
+    height:100%;
+    margin-top:10%;
+    margin-left:29%;
+
+}
+.hero{
+    font-size:2rem;
+    letter-spacing: 3.5px;
+}
+.content-1{
+    margin-left:45px;
+}
+
+.hero-content{
+    
+    margin-left:130px;
+}
+.movie-itmes .row{
+    display: flex;
+}
+.column img{
+
+    width:300.4px;
+    height:320.7px;
+    margin-top:70px;
+    margin-left:40px;
+    padding:30px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.column img:hover{
+    scale:1.2;
+}
+
+.row .column h4{
+    color:#fff;
+    text-align: center;
+    margin-left:30px;
+    
+ }
+
+ .row .column p{
+    color:#fff;
+    text-align: center;
+    margin-left:35px;
+    padding:10px;
+ }
+
+ .footer-items h2{
+    color:#a19797;
+    background-color: #1e232b;
+    height:20px;
+    font-size: 10px;
+ }
